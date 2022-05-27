@@ -3,6 +3,7 @@ export const schema = {
   description: 'Database schema for an anonymous chat',
   version: 0,
   type: 'object',
+  primaryKey: 'id',
   properties: {
     id: {
       type: 'string',
